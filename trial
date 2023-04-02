@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Local Painting Business</title>
+</head>
+<body>
+	<header>
+		<h1>Local Painting Business</h1>
+		<nav>
+			<ul>
+				<li><a href="#about">About Us</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#gallery">Gallery</a></li>
+				<li><a href="#contact">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<section id="about">
+			<h2>About Us</h2>
+			<p>We are a locally-owned painting business with over 10 years of experience. Our team of skilled painters are committed to delivering high-quality work and exceptional customer service. We specialize in both residential and commercial painting, and offer a variety of services to meet your needs.</p>
+		</section>
+		
+		<section id="services">
+			<h2>Services</h2>
+			<ul>
+				<li>Interior Painting</li>
+				<li>Exterior Painting</li>
+				<li>Commercial Painting</li>
+				<li>Deck and Fence Painting/Staining</li>
+				<li>Drywall Repair</li>
+			</ul>
+		</section>
+		
+		<section id="gallery">
+			<h2>Gallery</h2>
+			<p>Here are some examples of our recent work:</p>
+			<img src="painting1.jpg" alt="Example of our work">
+			<img src="painting2.jpg" alt="Example of our work">
+			<img src="painting3.jpg" alt="Example of our work">
+		</section>
+		
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<form action="submit-form.php" method="post">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required><br>
+				
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required><br>
+				
+				<label for="phone">Phone:</label>
+				<input type="tel" id="phone" name="phone"><br>
+				
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea><br>
+				
+				<input type="submit" value="Submit">
+			</form>
+			<p>You can also reach us at:</p>
+			<ul>
+				<li>Phone: 555-555-5555</li>
+				<li>Email: info@localpaintingbusiness.com</li>
+				<li>Address: 123 Main St, Anytown USA</li>
+			</ul>
+		</section>
+	</main>
+	
+	<footer>
+		<p>&copy; Local Painting Business. All rights reserved.</p>
+	</footer>
+</body>
+</html>
